@@ -8,9 +8,9 @@ public class leap_year {
         int birthYear = scanner.nextInt();
         int sum = 0;
         int year;
-        for(int i=1;i<=100;i++){
+        for (int i = 1; i <= 100; i++) {
             year = birthYear + i;
-            if(year%4==0 && year%100 != 0 || year%400==0)
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
                 sum += 1;
         }
         System.out.println(sum);
